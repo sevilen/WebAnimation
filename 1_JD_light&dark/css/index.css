@@ -26,8 +26,11 @@
 	border: 5px solid #FFFFFF;
 	margin: 6px;
 	/* 解决闪烁bug */
+	/* 转换元素的背面对用户是否可见 */
 	-webkit-backface-visibility: hidden;
+	/* 设置元素在3d空间如何呈现，保留3d*/
 	-webkit-transform-style: preserve-3d;
+	/* 开启硬件加速 */
 	-webkit-transform: translate3d(0,0,0);
 	/* 简单动画 */
 	-webkit-transition: all .9s ease;

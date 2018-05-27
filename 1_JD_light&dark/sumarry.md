@@ -14,4 +14,5 @@ demo中container:hover li:not(:hover)表示鼠标没有悬停在ul里的li上时
 行，第二个是过渡持续时间，第三个值过渡变换速率，ease逐渐变慢，等同于贝塞尔  
 曲线。
 
-5.关于chrome transition闪烁的bug，网上各种方法试过了都没解决- - 。
+5.关于chrome transition闪烁的bug，当时找了网上所有的解决方案都没用，  
+可能是当时电脑有点问题，第二天打开的时候闪烁的问题就解决了。
